@@ -1,0 +1,15 @@
+[project]
+name = "arc-reasoning-experiments"
+version = "0.1.0"
+description = "Pre-registered experiments on the Abstraction and Reasoning Corpus: a Rust DSL program search, learned search guidance, and test-time-trained networks."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+authors = [{ name = "Kudzai Mupita" }]
+dependencies = [
+    "numpy>=2.0",
+    "torch>=2.5",
+]
+
+[tool.uv]
+package = false
