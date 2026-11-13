@@ -1,0 +1,320 @@
+{"task":"0520fde7","status":"solved","solved":true,"nodes":68813,"ms":493,"depth":3,"programs":["input -> BoxObjects(2) -> NorLR(2)","input -> BoxObjects(2) -> NorLR(2) -> Dedup"]}
+{"task":"017c7c7b","status":"exhausted","solved":false,"nodes":231552,"ms":2977,"depth":4,"programs":[]}
+{"task":"0962bcdd","status":"nodes","solved":false,"nodes":150000,"ms":2618,"depth":2,"programs":[]}
+{"task":"007bbfb7","status":"exhausted","solved":false,"nodes":327462,"ms":3610,"depth":4,"programs":[]}
+{"task":"09629e4f","status":"nodes","solved":false,"nodes":150000,"ms":3668,"depth":2,"programs":[]}
+{"task":"0ca9ddb6","status":"nodes","solved":false,"nodes":150000,"ms":1971,"depth":2,"programs":[]}
+{"task":"0d3d703e","status":"solved","solved":true,"nodes":368666,"ms":5099,"depth":4,"programs":["input -> MapColours(1>5,2>6,3>4,4>3,5>1,6>2,8>9,9>8)"]}
+{"task":"0b148d64","status":"solved-partial-search","solved":true,"nodes":150000,"ms":6823,"depth":2,"programs":["input -> StripBgLines -> FillBg(0) -> CropContent"]}
+{"task":"0e206a2e","status":"nodes","solved":false,"nodes":150000,"ms":3002,"depth":2,"programs":[]}
+{"task":"0dfd9992","status":"nodes","solved":false,"nodes":150000,"ms":6822,"depth":2,"programs":[]}
+{"task":"137eaa0f","status":"nodes","solved":false,"nodes":150000,"ms":2580,"depth":2,"programs":[]}
+{"task":"05f2a901","status":"exhausted","solved":false,"nodes":1151247,"ms":21044,"depth":4,"programs":[]}
+{"task":"150deff5","status":"exhausted","solved":false,"nodes":932771,"ms":16844,"depth":4,"programs":[]}
+{"task":"1b2d62fb","status":"solved","solved":true,"nodes":82737,"ms":969,"depth":3,"programs":["input -> Recolour(1, 9) -> AndLR(8)","input -> TileH -> AndLR(1) -> AndLR(8)"]}
+{"task":"0a938d79","status":"exhausted","solved":false,"nodes":1193742,"ms":33091,"depth":4,"programs":[]}
+{"task":"025d127b","status":"exhausted","solved":false,"nodes":3594028,"ms":48986,"depth":4,"programs":[]}
+{"task":"1b60fb0c","status":"exhausted","solved":false,"nodes":1369847,"ms":21550,"depth":4,"programs":[]}
+{"task":"1c786137","status":"nodes","solved":false,"nodes":150000,"ms":8231,"depth":2,"programs":[]}
+{"task":"178fcbfb","status":"exhausted","solved":false,"nodes":2687162,"ms":45404,"depth":4,"programs":[]}
+{"task":"045e512c","status":"time","solved":false,"nodes":1731215,"ms":60000,"depth":3,"programs":[]}
+{"task":"06df4c85","status":"time","solved":false,"nodes":1408203,"ms":60000,"depth":3,"programs":[]}
+{"task":"1f85a75f","status":"solved","solved":true,"nodes":7328,"ms":826,"depth":2,"programs":["input -> CropLargest","input -> CropLargest -> CropContent"]}
+{"task":"1f642eb9","status":"nodes","solved":false,"nodes":150000,"ms":4465,"depth":2,"programs":[]}
+{"task":"2204b7a8","status":"nodes","solved":false,"nodes":150000,"ms":4147,"depth":2,"programs":[]}
+{"task":"11852cab","status":"time","solved":false,"nodes":2906308,"ms":60000,"depth":3,"programs":[]}
+{"task":"228f6490","status":"nodes","solved":false,"nodes":150000,"ms":2389,"depth":2,"programs":[]}
+{"task":"22eb0ac0","status":"nodes","solved":false,"nodes":150000,"ms":3385,"depth":2,"programs":[]}
+{"task":"22233c11","status":"exhausted","solved":false,"nodes":590951,"ms":12201,"depth":4,"programs":[]}
+{"task":"234bbc79","status":"nodes","solved":false,"nodes":150000,"ms":1309,"depth":2,"programs":[]}
+{"task":"1a07d186","status":"time","solved":false,"nodes":1637733,"ms":60000,"depth":3,"programs":[]}
+{"task":"2281f1f4","status":"exhausted","solved":false,"nodes":815446,"ms":18298,"depth":4,"programs":[]}
+{"task":"253bf280","status":"exhausted","solved":false,"nodes":157939,"ms":7194,"depth":4,"programs":[]}
+{"task":"1bfc4729","status":"exhausted","solved":false,"nodes":2764211,"ms":56899,"depth":4,"programs":[]}
+{"task":"23581191","status":"exhausted","solved":false,"nodes":1114822,"ms":21525,"depth":4,"programs":[]}
+{"task":"1fad071e","status":"exhausted","solved":false,"nodes":1854013,"ms":38514,"depth":4,"programs":[]}
+{"task":"1caeab9d","status":"exhausted","solved":false,"nodes":3170788,"ms":49115,"depth":4,"programs":[]}
+{"task":"25d8a9c8","status":"exhausted","solved":false,"nodes":1311205,"ms":16366,"depth":4,"programs":[]}
+{"task":"29c11459","status":"nodes","solved":false,"nodes":150000,"ms":2145,"depth":2,"programs":[]}
+{"task":"29ec7d0e","status":"nodes","solved":false,"nodes":150000,"ms":5076,"depth":2,"programs":[]}
+{"task":"1f0c79e5","status":"exhausted","solved":false,"nodes":1790257,"ms":56637,"depth":4,"programs":[]}
+{"task":"2bcee788","status":"nodes","solved":false,"nodes":150000,"ms":3919,"depth":2,"programs":[]}
+{"task":"27a28665","status":"exhausted","solved":false,"nodes":872405,"ms":22323,"depth":4,"programs":[]}
+{"task":"28bf18c6","status":"solved","solved":true,"nodes":1483732,"ms":25494,"depth":4,"programs":["input -> CropContent -> TileH","input -> CropContent -> TileH -> Recolour(0, 3) -> Recolour(3, 0)"]}
+{"task":"272f95fa","status":"exhausted","solved":false,"nodes":610191,"ms":34810,"depth":4,"programs":[]}
+{"task":"31aa019c","status":"nodes","solved":false,"nodes":150000,"ms":2168,"depth":2,"programs":[]}
+{"task":"2dee498d","status":"exhausted","solved":false,"nodes":732504,"ms":11990,"depth":4,"programs":[]}
+{"task":"23b5c85d","status":"solved-partial-search","solved":true,"nodes":1235924,"ms":60010,"depth":3,"programs":["input -> FillBg(3) -> FillBg(2) -> CropSmallest","input -> CropContent -> FillBg(3) -> FillBg(0) -> CropSmallest"]}
+{"task":"3428a4f5","status":"solved","solved":true,"nodes":2805,"ms":56,"depth":2,"programs":["input -> XorTB(3)","input -> Dedup -> XorTB(3)"]}
+{"task":"3345333e","status":"nodes","solved":false,"nodes":150000,"ms":4591,"depth":2,"programs":[]}
+{"task":"25d487eb","status":"exhausted","solved":false,"nodes":2153152,"ms":58387,"depth":4,"programs":[]}
+{"task":"363442ee","status":"nodes","solved":false,"nodes":150000,"ms":4686,"depth":2,"programs":[]}
+{"task":"36d67576","status":"nodes","solved":false,"nodes":150000,"ms":5307,"depth":2,"programs":[]}
+{"task":"3906de3d","status":"solved","solved":true,"nodes":3201,"ms":64,"depth":2,"programs":["input -> FallUp","input -> RecolourLargest(1) -> FallUp"]}
+{"task":"36fdfd69","status":"nodes","solved":false,"nodes":150000,"ms":6601,"depth":2,"programs":[]}
+{"task":"2c608aff","status":"exhausted","solved":false,"nodes":962236,"ms":39213,"depth":4,"programs":[]}
+{"task":"3af2c5a8","status":"solved","solved":true,"nodes":1356,"ms":6,"depth":2,"programs":["input -> Mirror4","input -> Mirror4 -> Recolour(0, 4) -> MapColours(4>0)"]}
+{"task":"3618c87e","status":"solved","solved":true,"nodes":628621,"ms":17078,"depth":4,"programs":["input -> FlipV -> OutlineObjects(5) -> OutlineObjects(0) -> FallDown"]}
+{"task":"29623171","status":"time","solved":false,"nodes":1430413,"ms":60000,"depth":3,"programs":[]}
+{"task":"2dc579da","status":"solved","solved":true,"nodes":2028075,"ms":49333,"depth":4,"programs":["input -> Sym4 -> Left -> Bottom","input -> SymV -> SymD -> Left -> Bottom"]}
+{"task":"3bd67248","status":"exhausted","solved":false,"nodes":190554,"ms":15546,"depth":4,"programs":[]}
+{"task":"2dd70a9a","status":"time","solved":false,"nodes":1350778,"ms":60000,"depth":3,"programs":[]}
+{"task":"32597951","status":"time","solved":false,"nodes":1015997,"ms":60000,"depth":3,"programs":[]}
+{"task":"3ac3eb23","status":"exhausted","solved":false,"nodes":1711295,"ms":42678,"depth":4,"programs":[]}
+{"task":"4093f84a","status":"nodes","solved":false,"nodes":150000,"ms":8459,"depth":2,"programs":[]}
+{"task":"39e1d7f9","status":"exhausted","solved":false,"nodes":306457,"ms":53250,"depth":4,"programs":[]}
+{"task":"4290ef0e","status":"nodes","solved":false,"nodes":150000,"ms":13367,"depth":2,"programs":[]}
+{"task":"3bdb4ada","status":"time","solved":false,"nodes":1588828,"ms":60001,"depth":3,"programs":[]}
+{"task":"4258a5f9","status":"solved","solved":true,"nodes":467243,"ms":17070,"depth":4,"programs":["input -> OutlineObjects(1)"]}
+{"task":"444801d8","status":"nodes","solved":false,"nodes":150000,"ms":3372,"depth":2,"programs":[]}
+{"task":"3eda0437","status":"exhausted","solved":false,"nodes":1727686,"ms":51434,"depth":4,"programs":[]}
+{"task":"3befdf3e","status":"time","solved":false,"nodes":1578048,"ms":60000,"depth":3,"programs":[]}
+{"task":"445eab21","status":"nodes","solved":false,"nodes":150000,"ms":2790,"depth":2,"programs":[]}
+{"task":"41e4d17e","status":"exhausted","solved":false,"nodes":494609,"ms":29010,"depth":4,"programs":[]}
+{"task":"3de23699","status":"exhausted","solved":false,"nodes":1657442,"ms":59034,"depth":4,"programs":[]}
+{"task":"4522001f","status":"exhausted","solved":false,"nodes":225274,"ms":3213,"depth":4,"programs":[]}
+{"task":"44f52bb0","status":"exhausted","solved":false,"nodes":313725,"ms":6135,"depth":4,"programs":[]}
+{"task":"46442a0e","status":"exhausted","solved":false,"nodes":270398,"ms":2883,"depth":4,"programs":[]}
+{"task":"3f7978a0","status":"exhausted","solved":false,"nodes":1669518,"ms":57302,"depth":4,"programs":[]}
+{"task":"4612dd53","status":"exhausted","solved":false,"nodes":584582,"ms":21802,"depth":4,"programs":[]}
+{"task":"447fd412","status":"exhausted","solved":false,"nodes":1168233,"ms":27471,"depth":4,"programs":[]}
+{"task":"48d8fb45","status":"nodes","solved":false,"nodes":150000,"ms":2947,"depth":2,"programs":[]}
+{"task":"496994bd","status":"solved","solved":true,"nodes":746,"ms":10,"depth":2,"programs":["input -> SymV","input -> SymV -> FillBg(5) -> MapColours(5>0)"]}
+{"task":"49d1d64f","status":"exhausted","solved":false,"nodes":931839,"ms":7203,"depth":4,"programs":[]}
+{"task":"484b58aa","status":"nodes","solved":false,"nodes":150000,"ms":18479,"depth":2,"programs":[]}
+{"task":"4be741c5","status":"nodes","solved":false,"nodes":150000,"ms":3721,"depth":2,"programs":[]}
+{"task":"4c4377d9","status":"solved","solved":true,"nodes":479231,"ms":7448,"depth":4,"programs":["input -> FlipV -> MirrorV"]}
+{"task":"42a50994","status":"exhausted","solved":false,"nodes":1070455,"ms":50934,"depth":4,"programs":[]}
+{"task":"4c5c2cf0","status":"nodes","solved":false,"nodes":150000,"ms":5646,"depth":2,"programs":[]}
+{"task":"4347f46a","status":"time","solved":false,"nodes":1428630,"ms":60000,"depth":3,"programs":[]}
+{"task":"44d8ac46","status":"exhausted","solved":false,"nodes":2080360,"ms":55062,"depth":4,"programs":[]}
+{"task":"5117e062","status":"nodes","solved":false,"nodes":150000,"ms":4086,"depth":2,"programs":[]}
+{"task":"4938f0c2","status":"exhausted","solved":false,"nodes":1106323,"ms":31337,"depth":4,"programs":[]}
+{"task":"5168d44c","status":"exhausted","solved":false,"nodes":569657,"ms":8214,"depth":4,"programs":[]}
+{"task":"543a7ed5","status":"solved","solved":true,"nodes":63038,"ms":2260,"depth":3,"programs":["input -> BoxObjects(3) -> FillEnclosed(4)","input -> FillEnclosed(4) -> RecolourSmallest(6) -> OutlineObjects(3)"]}
+{"task":"469497ad","status":"time","solved":false,"nodes":3103348,"ms":60000,"depth":3,"programs":[]}
+{"task":"47c1f68c","status":"time","solved":false,"nodes":2447785,"ms":60002,"depth":3,"programs":[]}
+{"task":"5614dbcf","status":"nodes","solved":false,"nodes":150000,"ms":2959,"depth":2,"programs":[]}
+{"task":"539a4f51","status":"exhausted","solved":false,"nodes":727431,"ms":14941,"depth":4,"programs":[]}
+{"task":"53b68214","status":"exhausted","solved":false,"nodes":1008749,"ms":23257,"depth":4,"programs":[]}
+{"task":"56dc2b01","status":"exhausted","solved":false,"nodes":1345760,"ms":14667,"depth":4,"programs":[]}
+{"task":"5bd6f4ac","status":"nodes","solved":false,"nodes":150000,"ms":2535,"depth":2,"programs":[]}
+{"task":"5ad4f10b","status":"nodes","solved":false,"nodes":150000,"ms":10108,"depth":2,"programs":[]}
+{"task":"50846271","status":"time","solved":false,"nodes":973606,"ms":60000,"depth":3,"programs":[]}
+{"task":"508bd3b6","status":"time","solved":false,"nodes":2403159,"ms":60007,"depth":3,"programs":[]}
+{"task":"50cb2852","status":"time","solved":false,"nodes":1611315,"ms":60000,"depth":3,"programs":[]}
+{"task":"5daaa586","status":"nodes","solved":false,"nodes":150000,"ms":6488,"depth":2,"programs":[]}
+{"task":"5c2c9af4","status":"exhausted","solved":false,"nodes":225790,"ms":18111,"depth":4,"programs":[]}
+{"task":"623ea044","status":"exhausted","solved":false,"nodes":157812,"ms":7061,"depth":4,"programs":[]}
+{"task":"6430c8c4","status":"solved","solved":true,"nodes":7818,"ms":62,"depth":2,"programs":["input -> NorTB(3)","input -> CropColour(0) -> NorTB(3)"]}
+{"task":"63613498","status":"nodes","solved":false,"nodes":150000,"ms":2370,"depth":2,"programs":[]}
+{"task":"67385a82","status":"exhausted","solved":false,"nodes":233001,"ms":3308,"depth":4,"programs":[]}
+{"task":"5c0a986e","status":"exhausted","solved":false,"nodes":1311431,"ms":28742,"depth":4,"programs":[]}
+{"task":"6455b5f5","status":"exhausted","solved":false,"nodes":167754,"ms":6513,"depth":4,"programs":[]}
+{"task":"62c24649","status":"solved","solved":true,"nodes":1030646,"ms":9107,"depth":4,"programs":["input -> Mirror4"]}
+{"task":"60b61512","status":"solved","solved":true,"nodes":914979,"ms":16296,"depth":4,"programs":["input -> FillBoxes(7)"]}
+{"task":"67e8384a","status":"solved","solved":true,"nodes":1849,"ms":12,"depth":2,"programs":["input -> Mirror4","input -> Dedup -> Mirror4"]}
+{"task":"67a423a3","status":"nodes","solved":false,"nodes":150000,"ms":1894,"depth":2,"programs":[]}
+{"task":"54d9e175","status":"time","solved":false,"nodes":3098563,"ms":60000,"depth":3,"programs":[]}
+{"task":"5521c0d9","status":"time","solved":false,"nodes":1411854,"ms":60000,"depth":3,"programs":[]}
+{"task":"56ff96f3","status":"time","solved":false,"nodes":2456901,"ms":60000,"depth":3,"programs":[]}
+{"task":"67a3c6ac","status":"solved","solved":true,"nodes":1970913,"ms":20317,"depth":4,"programs":["input -> FlipH","input -> FlipH -> MirrorH -> CropColour(2) -> Left"]}
+{"task":"694f12f3","status":"exhausted","solved":false,"nodes":1333294,"ms":24698,"depth":4,"programs":[]}
+{"task":"6cdd2623","status":"nodes","solved":false,"nodes":150000,"ms":9124,"depth":2,"programs":[]}
+{"task":"6cf79266","status":"nodes","solved":false,"nodes":150000,"ms":7809,"depth":2,"programs":[]}
+{"task":"6aa20dc0","status":"exhausted","solved":false,"nodes":807981,"ms":36725,"depth":4,"programs":[]}
+{"task":"6d0160f0","status":"nodes","solved":false,"nodes":150000,"ms":4888,"depth":2,"programs":[]}
+{"task":"673ef223","status":"exhausted","solved":false,"nodes":1908768,"ms":53787,"depth":4,"programs":[]}
+{"task":"6d58a25d","status":"nodes","solved":false,"nodes":150000,"ms":7239,"depth":2,"programs":[]}
+{"task":"6e02f1e3","status":"exhausted","solved":false,"nodes":96793,"ms":2219,"depth":4,"programs":[]}
+{"task":"6773b310","status":"time","solved":false,"nodes":1247321,"ms":60000,"depth":3,"programs":[]}
+{"task":"6f8cd79b","status":"exhausted","solved":false,"nodes":677,"ms":36,"depth":4,"programs":[]}
+{"task":"6ecd11f4","status":"nodes","solved":false,"nodes":150000,"ms":6909,"depth":2,"programs":[]}
+{"task":"6d75e8bb","status":"solved","solved":true,"nodes":405592,"ms":12496,"depth":4,"programs":["input -> FillBoxes(2)"]}
+{"task":"6c434453","status":"exhausted","solved":false,"nodes":2168064,"ms":41105,"depth":4,"programs":[]}
+{"task":"6855a6e4","status":"time","solved":false,"nodes":1402358,"ms":60000,"depth":3,"programs":[]}
+{"task":"72ca375d","status":"nodes","solved":false,"nodes":150000,"ms":4027,"depth":2,"programs":[]}
+{"task":"75b8110e","status":"nodes","solved":false,"nodes":150000,"ms":3628,"depth":2,"programs":[]}
+{"task":"77fdfe62","status":"nodes","solved":false,"nodes":150000,"ms":2390,"depth":2,"programs":[]}
+{"task":"6a1e5592","status":"time","solved":false,"nodes":2153222,"ms":60000,"depth":3,"programs":[]}
+{"task":"794b24be","status":"exhausted","solved":false,"nodes":214655,"ms":4951,"depth":4,"programs":[]}
+{"task":"7b6016b9","status":"solved","solved":true,"nodes":1272,"ms":151,"depth":2,"programs":["input -> FillEnclosed(7) -> MapColours(0>3,7>2)","input -> FillEnclosed(2) -> FillBg(3)"]}
+{"task":"6b9890af","status":"time","solved":false,"nodes":1127415,"ms":60000,"depth":3,"programs":[]}
+{"task":"780d0b14","status":"nodes","solved":false,"nodes":150000,"ms":10620,"depth":2,"programs":[]}
+{"task":"7c008303","status":"nodes","solved":false,"nodes":150000,"ms":3365,"depth":2,"programs":[]}
+{"task":"6e19193c","status":"exhausted","solved":false,"nodes":1415581,"ms":25471,"depth":4,"programs":[]}
+{"task":"6fa7a44f","status":"solved","solved":true,"nodes":1718572,"ms":19324,"depth":4,"programs":["input -> MirrorV"]}
+{"task":"74dd1130","status":"solved","solved":true,"nodes":1404371,"ms":17894,"depth":4,"programs":["input -> Transpose","input -> Rot270 -> MirrorV -> CropContent -> Bottom"]}
+{"task":"80af3007","status":"exhausted","solved":false,"nodes":62345,"ms":2437,"depth":4,"programs":[]}
+{"task":"7e0986d6","status":"nodes","solved":false,"nodes":150000,"ms":5315,"depth":2,"programs":[]}
+{"task":"760b3cac","status":"exhausted","solved":false,"nodes":1238337,"ms":22692,"depth":4,"programs":[]}
+{"task":"82819916","status":"nodes","solved":false,"nodes":150000,"ms":2970,"depth":2,"programs":[]}
+{"task":"7b7f7511","status":"exhausted","solved":false,"nodes":1172375,"ms":17352,"depth":4,"programs":[]}
+{"task":"834ec97d","status":"exhausted","solved":false,"nodes":307764,"ms":7324,"depth":4,"programs":[]}
+{"task":"846bdb03","status":"nodes","solved":false,"nodes":150000,"ms":4843,"depth":2,"programs":[]}
+{"task":"8403a5d5","status":"exhausted","solved":false,"nodes":537189,"ms":26964,"depth":4,"programs":[]}
+{"task":"7ddcd7ec","status":"exhausted","solved":false,"nodes":1675123,"ms":46641,"depth":4,"programs":[]}
+{"task":"810b9b61","status":"exhausted","solved":false,"nodes":881356,"ms":41529,"depth":4,"programs":[]}
+{"task":"7837ac64","status":"time","solved":false,"nodes":380163,"ms":60000,"depth":3,"programs":[]}
+{"task":"7f4411dc","status":"exhausted","solved":false,"nodes":1338483,"ms":47525,"depth":4,"programs":[]}
+{"task":"8be77c9e","status":"solved","solved":true,"nodes":91982,"ms":1726,"depth":4,"programs":["input -> MirrorV"]}
+{"task":"8d5021e8","status":"exhausted","solved":false,"nodes":258140,"ms":4707,"depth":4,"programs":[]}
+{"task":"8d510a79","status":"nodes","solved":false,"nodes":150000,"ms":3526,"depth":2,"programs":[]}
+{"task":"8e1813be","status":"nodes","solved":false,"nodes":150000,"ms":5802,"depth":2,"programs":[]}
+{"task":"7df24a62","status":"time","solved":false,"nodes":682603,"ms":60008,"depth":3,"programs":[]}
+{"task":"8eb1be9a","status":"exhausted","solved":false,"nodes":260791,"ms":9615,"depth":4,"programs":[]}
+{"task":"83302e8f","status":"time","solved":false,"nodes":463917,"ms":60000,"depth":3,"programs":[]}
+{"task":"868de0fa","status":"exhausted","solved":false,"nodes":809651,"ms":49424,"depth":4,"programs":[]}
+{"task":"91714a58","status":"nodes","solved":false,"nodes":150000,"ms":5489,"depth":2,"programs":[]}
+{"task":"93b581b8","status":"nodes","solved":false,"nodes":150000,"ms":3423,"depth":2,"programs":[]}
+{"task":"90c28cc7","status":"solved","solved":true,"nodes":147935,"ms":16276,"depth":3,"programs":["input -> CropContent -> Dedup","input -> CropContent -> FallLeft -> Dedup"]}
+{"task":"94f9d214","status":"solved-partial-search","solved":true,"nodes":150000,"ms":2320,"depth":2,"programs":["input -> FillBg(2) -> OutlineObjects(0) -> NorTB(2)"]}
+{"task":"8f2ea7aa","status":"solved","solved":true,"nodes":567433,"ms":24586,"depth":4,"programs":["input -> Dedup -> SelfKron -> StripBgLines"]}
+{"task":"9565186b","status":"exhausted","solved":false,"nodes":379974,"ms":7853,"depth":4,"programs":[]}
+{"task":"963e52fc","status":"exhausted","solved":false,"nodes":297710,"ms":9687,"depth":4,"programs":[]}
+{"task":"97a05b5b","status":"nodes","solved":false,"nodes":150000,"ms":10452,"depth":2,"programs":[]}
+{"task":"88a62173","status":"time","solved":false,"nodes":2507330,"ms":60000,"depth":3,"programs":[]}
+{"task":"99b1bc43","status":"solved-partial-search","solved":true,"nodes":150000,"ms":1936,"depth":2,"programs":["input -> OutlineObjects(3) -> XorTB(3)"]}
+{"task":"890034e9","status":"time","solved":false,"nodes":458839,"ms":60000,"depth":3,"programs":[]}
+{"task":"8a004b2b","status":"time","solved":false,"nodes":1260170,"ms":60000,"depth":3,"programs":[]}
+{"task":"9dfd6313","status":"solved-partial-search","solved":true,"nodes":150000,"ms":1451,"depth":2,"programs":["input -> Transpose","input -> Transpose -> BoxObjects(3) -> BoxObjects(0)"]}
+{"task":"9edfc990","status":"nodes","solved":false,"nodes":150000,"ms":4221,"depth":2,"programs":[]}
+{"task":"9ecd008a","status":"nodes","solved":false,"nodes":150000,"ms":5076,"depth":2,"programs":[]}
+{"task":"9af7a82c","status":"exhausted","solved":false,"nodes":847523,"ms":10956,"depth":4,"programs":[]}
+{"task":"8efcae92","status":"time","solved":false,"nodes":1263688,"ms":60000,"depth":3,"programs":[]}
+{"task":"a3df8b1e","status":"exhausted","solved":false,"nodes":22748,"ms":1012,"depth":4,"programs":[]}
+{"task":"a416b8f3","status":"solved","solved":true,"nodes":1820,"ms":13,"depth":2,"programs":["input -> TileH","input -> TileH -> FillBg(4) -> MapColours(4>0)"]}
+{"task":"913fb3ed","status":"exhausted","solved":false,"nodes":1348174,"ms":59162,"depth":4,"programs":[]}
+{"task":"99fa7670","status":"exhausted","solved":false,"nodes":1267898,"ms":27263,"depth":4,"programs":[]}
+{"task":"a5f85a15","status":"exhausted","solved":false,"nodes":620939,"ms":14084,"depth":4,"programs":[]}
+{"task":"a61ba2ce","status":"nodes","solved":false,"nodes":150000,"ms":3945,"depth":2,"programs":[]}
+{"task":"a2fd1cf0","status":"exhausted","solved":false,"nodes":987367,"ms":33390,"depth":4,"programs":[]}
+{"task":"97999447","status":"time","solved":false,"nodes":2105776,"ms":60000,"depth":3,"programs":[]}
+{"task":"a5313dff","status":"solved","solved":true,"nodes":778274,"ms":18666,"depth":4,"programs":["input -> FillEnclosed(1)","input -> Tile2x2 -> FillEnclosed(1) -> Left -> Top"]}
+{"task":"a68b268e","status":"nodes","solved":false,"nodes":150000,"ms":6703,"depth":2,"programs":[]}
+{"task":"995c5fa3","status":"time","solved":false,"nodes":2376533,"ms":60000,"depth":3,"programs":[]}
+{"task":"a65b410d","status":"exhausted","solved":false,"nodes":125401,"ms":9132,"depth":4,"programs":[]}
+{"task":"9f236235","status":"solved","solved":true,"nodes":619656,"ms":45937,"depth":4,"programs":["input -> FlipH -> Dedup -> StripBgLines","input -> FlipH -> Dedup -> StripBgLines -> CropColour(0)"]}
+{"task":"a1570a43","status":"exhausted","solved":false,"nodes":1625334,"ms":48655,"depth":4,"programs":[]}
+{"task":"a79310a0","status":"exhausted","solved":false,"nodes":217709,"ms":7350,"depth":4,"programs":[]}
+{"task":"a87f7484","status":"nodes","solved":false,"nodes":150000,"ms":4836,"depth":2,"programs":[]}
+{"task":"a85d4709","status":"exhausted","solved":false,"nodes":253116,"ms":9484,"depth":4,"programs":[]}
+{"task":"a8c38be5","status":"nodes","solved":false,"nodes":150000,"ms":9501,"depth":2,"programs":[]}
+{"task":"a48eeaf7","status":"time","solved":false,"nodes":2152896,"ms":60011,"depth":3,"programs":[]}
+{"task":"a64e4611","status":"nodes","solved":false,"nodes":150000,"ms":38437,"depth":2,"programs":[]}
+{"task":"a699fb00","status":"exhausted","solved":false,"nodes":610034,"ms":34387,"depth":4,"programs":[]}
+{"task":"b190f7f5","status":"nodes","solved":false,"nodes":150000,"ms":4086,"depth":2,"programs":[]}
+{"task":"a9f96cdd","status":"exhausted","solved":false,"nodes":412564,"ms":25675,"depth":4,"programs":[]}
+{"task":"ae3edfdc","status":"nodes","solved":false,"nodes":150000,"ms":12982,"depth":2,"programs":[]}
+{"task":"a61f2674","status":"solved","solved":true,"nodes":915999,"ms":52467,"depth":4,"programs":["input -> RecolourLargest(1) -> RecolourSmallest(2) -> MapColours(5>0)"]}
+{"task":"b1948b0a","status":"solved","solved":true,"nodes":485007,"ms":12754,"depth":4,"programs":["input -> MapColours(6>2)"]}
+{"task":"a740d043","status":"solved","solved":true,"nodes":1216510,"ms":52552,"depth":4,"programs":["input -> CropContent -> MapColours(1>0)","input -> BoxObjects(0) -> FallUp -> Recolour(1, 0) -> CropContent"]}
+{"task":"b60334d2","status":"exhausted","solved":false,"nodes":499172,"ms":13372,"depth":4,"programs":[]}
+{"task":"b2862040","status":"exhausted","solved":false,"nodes":704661,"ms":31657,"depth":4,"programs":[]}
+{"task":"a8d7556c","status":"time","solved":false,"nodes":896856,"ms":60000,"depth":3,"programs":[]}
+{"task":"ac0a08a4","status":"exhausted","solved":false,"nodes":3143219,"ms":56852,"depth":4,"programs":[]}
+{"task":"b8825c91","status":"solved","solved":true,"nodes":20698,"ms":681,"depth":2,"programs":["input -> Remove(4) -> SymH","input -> Remove(4) -> Sym4"]}
+{"task":"b775ac94","status":"nodes","solved":false,"nodes":150000,"ms":7145,"depth":2,"programs":[]}
+{"task":"b527c5c6","status":"exhausted","solved":false,"nodes":1266291,"ms":51900,"depth":4,"programs":[]}
+{"task":"b230c067","status":"solved-partial-search","solved":true,"nodes":1884179,"ms":60001,"depth":3,"programs":["input -> RecolourSmallest(1) -> MapColours(1>2,8>1)"]}
+{"task":"b6afb2da","status":"exhausted","solved":false,"nodes":1926532,"ms":48317,"depth":4,"programs":[]}
+{"task":"ba26e723","status":"exhausted","solved":false,"nodes":35024,"ms":1119,"depth":4,"programs":[]}
+{"task":"b9b7f026","status":"nodes","solved":false,"nodes":150000,"ms":6324,"depth":2,"programs":[]}
+{"task":"b91ae062","status":"exhausted","solved":false,"nodes":1630666,"ms":23644,"depth":4,"programs":[]}
+{"task":"b8cdaf2b","status":"exhausted","solved":false,"nodes":1727412,"ms":27441,"depth":4,"programs":[]}
+{"task":"bbc9ae5d","status":"exhausted","solved":false,"nodes":237715,"ms":2709,"depth":4,"programs":[]}
+{"task":"b548a754","status":"time","solved":false,"nodes":1688631,"ms":60000,"depth":3,"programs":[]}
+{"task":"bb43febb","status":"exhausted","solved":false,"nodes":779786,"ms":12515,"depth":4,"programs":[]}
+{"task":"bd4472b8","status":"exhausted","solved":false,"nodes":694770,"ms":11882,"depth":4,"programs":[]}
+{"task":"be94b721","status":"solved-partial-search","solved":true,"nodes":150000,"ms":3125,"depth":2,"programs":["input -> CropLargest","input -> MirrorV -> CropLargest -> FlipV"]}
+{"task":"beb8660c","status":"nodes","solved":false,"nodes":150000,"ms":2190,"depth":2,"programs":[]}
+{"task":"b7249182","status":"time","solved":false,"nodes":1986569,"ms":60000,"depth":3,"programs":[]}
+{"task":"c59eb873","status":"solved","solved":true,"nodes":72239,"ms":573,"depth":3,"programs":["input -> Up2","input -> Up2 -> Recolour(1, 6) -> Recolour(6, 1)"]}
+{"task":"c0f76784","status":"nodes","solved":false,"nodes":150000,"ms":3766,"depth":2,"programs":[]}
+{"task":"bdad9b1f","status":"exhausted","solved":false,"nodes":1667488,"ms":17381,"depth":4,"programs":[]}
+{"task":"c444b776","status":"nodes","solved":false,"nodes":150000,"ms":4901,"depth":2,"programs":[]}
+{"task":"c9e6f938","status":"solved","solved":true,"nodes":104876,"ms":1360,"depth":4,"programs":["input -> MirrorH"]}
+{"task":"c9f8e694","status":"nodes","solved":false,"nodes":150000,"ms":2394,"depth":2,"programs":[]}
+{"task":"b782dc8a","status":"time","solved":false,"nodes":1657232,"ms":60000,"depth":3,"programs":[]}
+{"task":"c909285e","status":"nodes","solved":false,"nodes":150000,"ms":10419,"depth":2,"programs":[]}
+{"task":"c8f0f002","status":"solved","solved":true,"nodes":1489388,"ms":13042,"depth":4,"programs":["input -> MapColours(7>5)","input -> MirrorH -> CropColour(7) -> Left -> Recolour(7, 5)"]}
+{"task":"cbded52d","status":"nodes","solved":false,"nodes":150000,"ms":2254,"depth":2,"programs":[]}
+{"task":"ce22a75a","status":"solved","solved":true,"nodes":13549,"ms":225,"depth":3,"programs":["input -> OutlineObjects(1) -> MapColours(5>1)","input -> OutlineObjects(1) -> Keep(1) -> Connect(1)"]}
+{"task":"ce4f8723","status":"solved","solved":true,"nodes":7382,"ms":44,"depth":2,"programs":["input -> OrTB(3)","input -> Dedup -> OrTB(3)"]}
+{"task":"cdecee7f","status":"nodes","solved":false,"nodes":150000,"ms":2391,"depth":2,"programs":[]}
+{"task":"b94a9452","status":"exhausted","solved":false,"nodes":984936,"ms":43437,"depth":4,"programs":[]}
+{"task":"cce03e0d","status":"exhausted","solved":false,"nodes":612780,"ms":4265,"depth":4,"programs":[]}
+{"task":"cf98881b","status":"nodes","solved":false,"nodes":150000,"ms":1652,"depth":2,"programs":[]}
+{"task":"bc1d5164","status":"exhausted","solved":false,"nodes":2537559,"ms":40217,"depth":4,"programs":[]}
+{"task":"caa06a1f","status":"exhausted","solved":false,"nodes":697182,"ms":16159,"depth":4,"programs":[]}
+{"task":"d06dbe63","status":"exhausted","solved":false,"nodes":110329,"ms":4448,"depth":4,"programs":[]}
+{"task":"ce9e57f2","status":"exhausted","solved":false,"nodes":470827,"ms":7384,"depth":4,"programs":[]}
+{"task":"d037b0a7","status":"exhausted","solved":false,"nodes":1052614,"ms":8475,"depth":4,"programs":[]}
+{"task":"d23f8c26","status":"nodes","solved":false,"nodes":150000,"ms":1007,"depth":2,"programs":[]}
+{"task":"bda2d7a6","status":"exhausted","solved":false,"nodes":2349486,"ms":42042,"depth":4,"programs":[]}
+{"task":"d0f5fe59","status":"exhausted","solved":false,"nodes":448264,"ms":6389,"depth":4,"programs":[]}
+{"task":"d406998b","status":"exhausted","solved":false,"nodes":103140,"ms":988,"depth":4,"programs":[]}
+{"task":"d43fd935","status":"nodes","solved":false,"nodes":150000,"ms":1921,"depth":2,"programs":[]}
+{"task":"d22278a0","status":"exhausted","solved":false,"nodes":1070344,"ms":19038,"depth":4,"programs":[]}
+{"task":"d10ecb37","status":"exhausted","solved":false,"nodes":1826396,"ms":24458,"depth":4,"programs":[]}
+{"task":"d4f3cd78","status":"exhausted","solved":false,"nodes":830241,"ms":11538,"depth":4,"programs":[]}
+{"task":"d5d6de2d","status":"solved","solved":true,"nodes":24428,"ms":482,"depth":3,"programs":["input -> FillEnclosed(3) -> MapColours(2>0)","input -> FillEnclosed(3) -> ShootUp(2) -> Keep(3)"]}
+{"task":"d07ae81c","status":"exhausted","solved":false,"nodes":1335805,"ms":34820,"depth":4,"programs":[]}
+{"task":"d4469b4b","status":"exhausted","solved":false,"nodes":947729,"ms":25971,"depth":4,"programs":[]}
+{"task":"d687bc17","status":"nodes","solved":false,"nodes":150000,"ms":1872,"depth":2,"programs":[]}
+{"task":"d631b094","status":"exhausted","solved":false,"nodes":533622,"ms":4346,"depth":4,"programs":[]}
+{"task":"d6ad076f","status":"nodes","solved":false,"nodes":150000,"ms":2007,"depth":2,"programs":[]}
+{"task":"c8cbb738","status":"time","solved":false,"nodes":3322965,"ms":60000,"depth":3,"programs":[]}
+{"task":"d89b689b","status":"nodes","solved":false,"nodes":150000,"ms":2125,"depth":2,"programs":[]}
+{"task":"d9fac9be","status":"solved","solved":true,"nodes":85216,"ms":1589,"depth":3,"programs":["input -> Rot270 -> CropLargest -> CropSmallest","input -> Rot270 -> SymH -> CropSmallest"]}
+{"task":"ce602527","status":"time","solved":false,"nodes":2171554,"ms":60000,"depth":3,"programs":[]}
+{"task":"db3e9e38","status":"exhausted","solved":false,"nodes":74124,"ms":1171,"depth":4,"programs":[]}
+{"task":"d364b489","status":"exhausted","solved":false,"nodes":3519410,"ms":49742,"depth":4,"programs":[]}
+{"task":"dae9d2b5","status":"solved","solved":true,"nodes":1715665,"ms":15035,"depth":4,"programs":["input -> OrLR(6)"]}
+{"task":"dc0a314f","status":"nodes","solved":false,"nodes":150000,"ms":2837,"depth":2,"programs":[]}
+{"task":"dc1df850","status":"nodes","solved":false,"nodes":150000,"ms":1382,"depth":2,"programs":[]}
+{"task":"d2abd087","status":"exhausted","solved":false,"nodes":3990879,"ms":54089,"depth":4,"programs":[]}
+{"task":"ddf7fa4f","status":"nodes","solved":false,"nodes":150000,"ms":1641,"depth":2,"programs":[]}
+{"task":"d9f24cd1","status":"exhausted","solved":false,"nodes":1818290,"ms":20651,"depth":4,"programs":[]}
+{"task":"d90796e8","status":"exhausted","solved":false,"nodes":3096210,"ms":25222,"depth":4,"programs":[]}
+{"task":"dc433765","status":"exhausted","solved":false,"nodes":399049,"ms":6516,"depth":4,"programs":[]}
+{"task":"e3497940","status":"solved-partial-search","solved":true,"nodes":150000,"ms":1802,"depth":2,"programs":["input -> SymH -> Left"]}
+{"task":"e26a3af2","status":"nodes","solved":false,"nodes":150000,"ms":2575,"depth":2,"programs":[]}
+{"task":"ded97339","status":"solved","solved":true,"nodes":448725,"ms":6973,"depth":4,"programs":["input -> Connect(8)"]}
+{"task":"e40b9e2f","status":"nodes","solved":false,"nodes":150000,"ms":2062,"depth":2,"programs":[]}
+{"task":"e48d4e1a","status":"nodes","solved":false,"nodes":150000,"ms":2484,"depth":2,"programs":[]}
+{"task":"e50d258f","status":"nodes","solved":false,"nodes":150000,"ms":1818,"depth":2,"programs":[]}
+{"task":"e8593010","status":"nodes","solved":false,"nodes":150000,"ms":2171,"depth":2,"programs":[]}
+{"task":"db93a21d","status":"exhausted","solved":false,"nodes":572561,"ms":18432,"depth":4,"programs":[]}
+{"task":"d8c310e9","status":"exhausted","solved":false,"nodes":2593869,"ms":35464,"depth":4,"programs":[]}
+{"task":"e73095fd","status":"exhausted","solved":false,"nodes":192199,"ms":4843,"depth":4,"programs":[]}
+{"task":"e9afcf9a","status":"exhausted","solved":false,"nodes":43830,"ms":708,"depth":4,"programs":[]}
+{"task":"ea786f4a","status":"exhausted","solved":false,"nodes":56772,"ms":821,"depth":4,"programs":[]}
+{"task":"e98196ab","status":"nodes","solved":false,"nodes":150000,"ms":2505,"depth":2,"programs":[]}
+{"task":"eb281b96","status":"exhausted","solved":false,"nodes":79238,"ms":763,"depth":4,"programs":[]}
+{"task":"e9614598","status":"exhausted","solved":false,"nodes":280500,"ms":5401,"depth":4,"programs":[]}
+{"task":"ec883f72","status":"nodes","solved":false,"nodes":150000,"ms":2197,"depth":2,"programs":[]}
+{"task":"d511f180","status":"solved","solved":true,"nodes":5287596,"ms":55716,"depth":4,"programs":["input -> MapColours(5>8,8>5)"]}
+{"task":"ecdecbb3","status":"exhausted","solved":false,"nodes":288766,"ms":5113,"depth":4,"programs":[]}
+{"task":"eb5a1d5d","status":"solved","solved":true,"nodes":127868,"ms":8049,"depth":4,"programs":["input -> Dedup"]}
+{"task":"f25ffba3","status":"solved-partial-search","solved":true,"nodes":150000,"ms":945,"depth":2,"programs":["input -> SymV","input -> SymV -> FillBg(1) -> FillBg(0)"]}
+{"task":"f15e1fac","status":"exhausted","solved":false,"nodes":638117,"ms":8662,"depth":4,"programs":[]}
+{"task":"ef135b50","status":"exhausted","solved":false,"nodes":1037490,"ms":12904,"depth":4,"programs":[]}
+{"task":"f1cefba8","status":"exhausted","solved":false,"nodes":451814,"ms":13065,"depth":4,"programs":[]}
+{"task":"f76d97a5","status":"exhausted","solved":false,"nodes":634006,"ms":6119,"depth":4,"programs":[]}
+{"task":"e21d9049","status":"exhausted","solved":false,"nodes":2243166,"ms":37218,"depth":4,"programs":[]}
+{"task":"f5b8619d","status":"exhausted","solved":false,"nodes":1248485,"ms":8260,"depth":4,"programs":[]}
+{"task":"f8c80d96","status":"nodes","solved":false,"nodes":150000,"ms":2249,"depth":2,"programs":[]}
+{"task":"f8ff0b80","status":"nodes","solved":false,"nodes":150000,"ms":2473,"depth":2,"programs":[]}
+{"task":"e509e548","status":"exhausted","solved":false,"nodes":1490249,"ms":41784,"depth":4,"programs":[]}
+{"task":"f9012d9b","status":"exhausted","solved":false,"nodes":902492,"ms":10333,"depth":4,"programs":[]}
+{"task":"fcc82909","status":"nodes","solved":false,"nodes":150000,"ms":1730,"depth":2,"programs":[]}
+{"task":"fafffa47","status":"solved","solved":true,"nodes":1540450,"ms":13065,"depth":4,"programs":["input -> OutlineObjects(2) -> NorTB(2)"]}
+{"task":"feca6190","status":"exhausted","solved":false,"nodes":1076511,"ms":7456,"depth":4,"programs":[]}
+{"task":"de1cd16c","status":"time","solved":false,"nodes":1781209,"ms":60000,"depth":3,"programs":[]}
+{"task":"ff28f65a","status":"exhausted","solved":false,"nodes":198486,"ms":5806,"depth":4,"programs":[]}
+{"task":"f35d900a","status":"exhausted","solved":false,"nodes":1296438,"ms":39899,"depth":4,"programs":[]}
+{"task":"f8a8fe49","status":"exhausted","solved":false,"nodes":1232830,"ms":34739,"depth":4,"programs":[]}
+{"task":"ea32f347","status":"solved-partial-search","solved":true,"nodes":3196709,"ms":60000,"depth":3,"programs":["input -> RecolourLargest(1) -> RecolourSmallest(2) -> MapColours(5>4)"]}
+{"task":"f8b3ba0a","status":"time","solved":false,"nodes":2740783,"ms":60000,"depth":3,"programs":[]}
+{"task":"fcb5c309","status":"time","solved":false,"nodes":2700623,"ms":60000,"depth":3,"programs":[]}

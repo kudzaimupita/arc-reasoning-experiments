@@ -1,0 +1,78 @@
+{
+  "experiment": "e11-icecuber-baseline",
+  "solver": "icecuber (top-quarks/ARC-solution 9407072659de1270358c2ba34c527785214dd68b, patched)",
+  "binary_sha256": "a3338de9e29df9ce2aa2dfa48c844ebb61ab124b1472bd890cc1ff63036a6eca",
+  "driver": "baselines/icecuber/icecuber_driver.py",
+  "cpu_seconds_per_task": 60,
+  "threads_per_task": 1,
+  "runs": [
+    {
+      "job": "ice-d2-train",
+      "pool": "arc1-train",
+      "ids": "the train pool",
+      "depth": 2,
+      "parallel": 8,
+      "mem_mb": 1300
+    },
+    {
+      "job": "ice-d2-select",
+      "pool": "select-arc1",
+      "ids": "the select pool",
+      "depth": 2,
+      "parallel": 8,
+      "mem_mb": 1300
+    },
+    {
+      "job": "ice-d2-arc2",
+      "pool": "select-arc2-only",
+      "ids": "the ARC-2-only select pool",
+      "depth": 2,
+      "parallel": 8,
+      "mem_mb": 1300
+    },
+    {
+      "job": "ice-d3-train",
+      "pool": "arc1-train",
+      "ids": "the train pool",
+      "depth": 3,
+      "parallel": 3,
+      "mem_mb": 3300
+    },
+    {
+      "job": "ice-d3-select",
+      "pool": "select-arc1",
+      "ids": "the select pool",
+      "depth": 3,
+      "parallel": 3,
+      "mem_mb": 3300
+    },
+    {
+      "job": "ice-d4-select",
+      "pool": "select-arc1",
+      "ids": "the select pool",
+      "depth": 4,
+      "parallel": 3,
+      "mem_mb": 3300
+    },
+    {
+      "job": "ice-d4-train-a",
+      "pool": "arc1-train",
+      "ids": "first 160 of the train pool",
+      "depth": 4,
+      "parallel": 3,
+      "mem_mb": 3300
+    },
+    {
+      "job": "ice-d4-train-b",
+      "pool": "arc1-train",
+      "ids": "last 160 of the train pool",
+      "depth": 4,
+      "parallel": 3,
+      "mem_mb": 3300
+    }
+  ],
+  "grading": [
+    "top-2 (ARC rule)",
+    "top-3 (for comparison with published icecuber numbers)"
+  ]
+}
