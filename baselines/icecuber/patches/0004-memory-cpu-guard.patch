@@ -1,0 +1,94 @@
+diff -ruN -x r a/src/main.cpp b/src/main.cpp
+--- a/src/main.cpp	2026-11-12 10:49:28
++++ b/src/main.cpp	2026-11-12 10:49:28
+@@ -4,6 +4,8 @@
+ 
+ #include <unistd.h>
+ 
++void mem_guard_start(long long limit_mb); // patch: src/mem_guard.cpp
++
+ int main(int argc, char**argv) {
+   //rankFeatures();
+   //evalNormalizeRigid();
+@@ -20,5 +22,7 @@
+     maxdepth = atoi(argv[2]);
+     printf("Using max depth %d\n", maxdepth);
+   }
++  // patch: argv[3] = memory limit in MB for this process (0 = only report the peak).
++  mem_guard_start(argc >= 4 ? atoll(argv[3]) : 0);
+   run(only_sid, maxdepth);
+ }
+diff -ruN -x r a/src/mem_guard.cpp b/src/mem_guard.cpp
+--- a/src/mem_guard.cpp	1970-01-01 02:00:00
++++ b/src/mem_guard.cpp	2026-11-12 10:49:28
+@@ -0,0 +1,70 @@
++// mem_guard.cpp: added for these experiments (not upstream icecuber).
++//
++// What it does: samples this process's own memory footprint (task_info TASK_VM_INFO
++// phys_footprint, the number the launcher's watchdog reads through top) every 20 ms of CPU time
++// (ITIMER_PROF), keeps the peak, and exits with code 75 before the footprint passes the limit the
++// driver gives, so one search never trips the watchdog's per-process memory cap. On SIGXCPU (the
++// driver's per-task RLIMIT_CPU) it exits with code 76. It prints one line to stderr on every exit:
++//   mem-guard: <done|memory|cpu> peak_footprint_mb=<n>
++// What it must never do: touch any file, other process or the network.
++#include <mach/mach.h>
++#include <signal.h>
++#include <stdlib.h>
++#include <sys/time.h>
++#include <unistd.h>
++
++static unsigned long long mg_limit = 0, mg_peak = 0;
++
++static unsigned long long mg_footprint() {
++  task_vm_info_data_t info;
++  mach_msg_type_number_t count = TASK_VM_INFO_COUNT;
++  if (task_info(mach_task_self(), TASK_VM_INFO, (task_info_t)&info, &count) != KERN_SUCCESS) return 0;
++  return info.phys_footprint;
++}
++
++// Async-signal-safe report: write(2) and a hand-made decimal conversion only.
++static void mg_report(const char* why) {
++  char buf[96];
++  int n = 0;
++  const char* pre = "mem-guard: ";
++  for (const char* p = pre; *p; p++) buf[n++] = *p;
++  for (const char* p = why; *p && n < 40; p++) buf[n++] = *p;
++  const char* mid = " peak_footprint_mb=";
++  for (const char* p = mid; *p; p++) buf[n++] = *p;
++  unsigned long long v = mg_peak >> 20;
++  char dig[24];
++  int d = 0;
++  do { dig[d++] = '0' + v % 10; v /= 10; } while (v);
++  while (d) buf[n++] = dig[--d];
++  buf[n++] = '\n';
++  ssize_t ignored = write(2, buf, n);
++  (void)ignored;
++}
++
++static void mg_sample() {
++  unsigned long long f = mg_footprint();
++  if (f > mg_peak) mg_peak = f;
++  if (mg_limit && f > mg_limit) {
++    mg_report("memory");
++    _exit(75);
++  }
++}
++
++static void mg_on_prof(int) { mg_sample(); }
++static void mg_on_xcpu(int) { mg_report("cpu"); _exit(76); }
++static void mg_on_exit() { mg_sample(); mg_report("done"); }
++
++void mem_guard_start(long long limit_mb) {
++  mg_limit = limit_mb > 0 ? (unsigned long long)limit_mb << 20 : 0;
++  struct sigaction sa = {};
++  sa.sa_flags = SA_RESTART;
++  sigemptyset(&sa.sa_mask);
++  sa.sa_handler = mg_on_prof;
++  sigaction(SIGPROF, &sa, nullptr);
++  sa.sa_handler = mg_on_xcpu;
++  sigaction(SIGXCPU, &sa, nullptr);
++  atexit(mg_on_exit);
++  struct itimerval it = {{0, 20000}, {0, 20000}};
++  setitimer(ITIMER_PROF, &it, nullptr);
++  mg_sample();
++}

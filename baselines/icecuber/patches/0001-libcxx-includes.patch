@@ -1,0 +1,25 @@
+--- a/headers/precompiled_stl.hpp	2026-11-12 10:49:28
++++ b/headers/precompiled_stl.hpp	2026-11-12 10:49:28
+@@ -11,3 +11,22 @@
+ #include <queue>
+ 
+ //#include <bits/stdc++.h>
++// patch: Apple clang / libc++ does not pull these in transitively as libstdc++ does.
++#include <array>
++#include <bitset>
++#include <climits>
++#include <cmath>
++#include <cstdint>
++#include <cstdio>
++#include <cstdlib>
++#include <cstring>
++#include <deque>
++#include <iomanip>
++#include <map>
++#include <memory>
++#include <numeric>
++#include <sstream>
++#include <stack>
++#include <string>
++#include <unordered_set>
++#include <utility>

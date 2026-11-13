@@ -1,0 +1,38 @@
+--- a/src/read.cpp	2026-11-12 10:49:28
++++ b/src/read.cpp	2026-11-12 10:49:28
+@@ -3,7 +3,7 @@
+ #include <cassert>
+ #include <iostream>*/
+ #include "precompiled_stl.hpp"
+-#include <experimental/filesystem>
++#include <filesystem>
+ 
+ using namespace std;
+ #include "utils.hpp"
+@@ -143,20 +143,17 @@
+ 
+ 
+ vector<Sample> readAll(string path, int maxn) { //maxn = -1
+-  const string base_path[2] = {"/kaggle/input/abstraction-and-reasoning-challenge/", "./dataset/"};
++  // patch: read only ./dataset/<path> (the driver writes one task there); never probe /kaggle.
++  const string base_path = "./dataset/";
++  assert(filesystem::exists(base_path+path));
+ 
+-  int base_pathi = 0;
+-  while (!experimental::filesystem::exists(base_path[base_pathi]+path)) {
+-    base_pathi++;
+-    assert(base_pathi < 2);
+-  }
+-
+   vector<string> files;
+-  for (auto magic_file_type : experimental::filesystem::directory_iterator(base_path[base_pathi]+path)) {
+-    string name = magic_file_type.path().u8string();
++  for (auto magic_file_type : filesystem::directory_iterator(base_path+path)) {
++    string name = magic_file_type.path().string();
+     if (name.size() >= 5 && name.substr(name.size()-5,5) == ".json")
+       files.push_back(name);
+   }
++  sort(files.begin(), files.end()); // patch: deterministic sample order
+   if (maxn >= 0) files.resize(maxn);
+   vector<Sample> sample;
+   for (string sid : files) {

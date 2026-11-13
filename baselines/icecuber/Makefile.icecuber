@@ -1,0 +1,26 @@
+# Makefile.icecuber: builds icecuber (github.com/top-quarks/ARC-solution at 9407072, MIT) after the patches in
+# patches/ are applied. macOS only as written (patch 0004 reads the Mach task footprint).
+#
+#   git clone https://github.com/top-quarks/ARC-solution && cd ARC-solution
+#   git checkout 9407072659de1270358c2ba34c527785214dd68b
+#   rm -rf dataset                                  # never needed: the driver writes one task at a time
+#   for p in /path/to/baselines/icecuber/patches/*.patch; do patch -p1 < "$p"; done
+#   make -f /path/to/baselines/icecuber/Makefile.icecuber SRC=$PWD/ -j4
+#
+# Differences from upstream's Makefile: clang++ instead of g++; no precompiled header; no -lstdc++fs; no debug
+# info; evals.cpp, tasks.cpp and count_tasks.cpp are not built (hand solutions and dataset readers that run()
+# never calls); mem_guard.cpp is added (patch 0004).
+SRC ?= $(CURDIR)/
+CXX ?= clang++
+CXXFLAGS := -std=c++17 -O2 -w -I$(SRC)headers
+
+OBJ := read core_functions image_functions image_functions2 visu normalize runner score load \
+       brute2 deduce_op pieces compose2 brute_size efficient mem_guard main
+
+all: icecuber
+
+icecuber: $(addsuffix .o,$(OBJ))
+	$(CXX) $^ -o $@
+
+%.o: $(SRC)src/%.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
